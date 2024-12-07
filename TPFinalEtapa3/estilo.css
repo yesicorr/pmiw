@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(251, 45, 68);
+    background-color: #191E29;
+}
+header {
+    background-image: url('imagen/fondo.jpg');
+    background-position: center; 
+    color: white
+}
+
+header {
+    color: white;
+}
+
+.navbar.bg-body-tertiary {
+    background-color: #191E29 !important; /sobrescribe/
+}
+
+.navbar .navbar-brand {
+    color: white !important; /sobrescribe /
+}
+
+.navbar .nav-link {
+    color: white !important; /sobrescribe/
+}
+
+.navbar .nav-link:hover {
+    color: rgb(63, 214, 250)!important; 
+}
+
+.btn-primary {  
+    background-color: rgb(53, 94, 129);
+    border-color: rgb(1, 195, 141);
+}
+
+.btn-primary:hover {
+    background-color: rgb(1, 195, 141);   
+}
+
+article {
+    background-color: #132D46;
+    color: white;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-caption h5 {
+    color: rgb(241, 243, 252); 
+    background-color:  #191e2981;
+    padding: 5px; 
+    border-radius: 5px; /
+  }
+
+ 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color:  #191e295d; 
+  border-radius: 5px; 
+}
+
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgba(1, 195, 140, 0.486)
+}
